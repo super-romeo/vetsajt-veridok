@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vetsajt.veridok.ru/sitemap.xml

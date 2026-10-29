@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://vetsajt.veridok.ru/price.html">
+<title>Цена — сайт ветклиники с записью на приём</title>
+<meta name="description" content="Цена сайта небольшой ветклиники или частного ветврача: услуги, врачи, контакты и запись на приём.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">ВетСтраница</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Услуги, врачи, адрес и часы работы, запись на приём с уведомлением клинике.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Одностраничный сайт</b><span>3 500 ₽ за сайт.</span><br><a class="btn" href="pay.html?plan=odna_stranica" data-ev="payment_click click_pay_odna_stranica">Оплатить — 3 500 ₽</a></div>
+      <div class="card"><b>Сайт из нескольких страниц</b><span>5 500 ₽ за сайт.</span><br><a class="btn" href="pay.html?plan=neskolko_stranic" data-ev="payment_click click_pay_neskolko_stranic">Оплатить — 5 500 ₽</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Сайт по данным клиники. За сведения об услугах и врачах отвечает клиника.</p>
+</div></footer>
+
+</body>
+</html>
